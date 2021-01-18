@@ -1,0 +1,245 @@
+.all {
+  max-width: 1200px;
+}
+
+.header {
+  background-color: black;
+  max-width: 1200px;
+  width: 100%;
+  max-height: 101px;
+  height: 100%;
+}
+
+.header .logo {
+  width: 38vw;
+  max-width: 456px;
+  height: 69px;
+  margin: 14px 0 18px 23px;
+  opacity: 0.8;
+}
+
+.header .logo:hover {
+  opacity: 1.0;
+}
+
+.header .nav {
+  float: right;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+}
+
+.header li {
+  font-size: 2.3vw;
+  font-size: 27.6px;
+  display: inline-block;
+  margin-right: 53px;
+  margin-top: 37px;
+  opacity: 0.8;
+}
+
+.header li:hover {
+  opacity: 1.0;
+}
+
+.top-container {
+  height: 600px;
+  max-width: 1200px;
+  width: 100%;
+  background-image: url("top_image.jpg");
+  background-size: cover;
+}
+
+.top-container h1 {
+  color: white;
+  font-size: 7vw;
+  font-size: 84px;
+  text-align: center;
+  padding-top: 257px;
+}
+
+.main-container {
+  max-width: 1200px;
+  width: 100%;
+}
+
+.main-container h2 {
+  font-size: 50px;
+  text-align: center;
+  margin: 67px 0 45px 0;
+}
+
+.main-container .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+  max-width: 1200px;
+}
+
+.main-container .boxclass {
+  margin-left: 60px;
+  border: solid 1px #00000059;
+  -webkit-box-shadow: #00000059 1px 3px 8px;
+          box-shadow: #00000059 1px 3px 8px;
+  width: 19%;
+  height: 100%;
+  height: 346px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-bottom: 20px;
+}
+
+.main-container img {
+  height: 126px;
+  width: 100%;
+}
+
+.main-container .text {
+  line-height: 1.8em;
+  padding-bottom: 20px;
+  margin: 18px 31px 0 13px;
+  border-bottom: solid 1px black;
+}
+
+.main-container .tx {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.main-container .btn {
+  width: 300px;
+  height: 79px;
+  border: solid 1px #00000059;
+  -webkit-box-shadow: #00000059 1px 3px 8px;
+          box-shadow: #00000059 1px 3px 8px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.main-container .btn:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  position: relative;
+  top: 10px;
+}
+
+.main-container a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+.main-container p {
+  margin-top: 26px;
+}
+
+.teachers h2 {
+  max-width: 1200px;
+  width: 100%;
+  font-size: 50px;
+  text-align: center;
+  margin: 67px 0 45px 0;
+}
+
+.teachers-class {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.teachers-class img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin: 0 68px 31px 0px;
+}
+
+.teachers-class dt {
+  font-size: 30px;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+
+.teachers-class dd {
+  font-size: 14px;
+  line-height: 2.0em;
+}
+
+.teachers-box1 dl {
+  width: 482px;
+}
+
+.teachers-box2 dl {
+  width: 469px;
+}
+
+footer {
+  max-width: 1200px;
+  width: 100%;
+  height: 101px;
+  background-color: black;
+  text-align: center;
+}
+
+footer small {
+  color: white;
+  line-height: 101px;
+  font-size: 14px;
+}
+
+@media (max-width: 1199px) {
+  .main-container .box {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-align: center;
+  }
+  .main-container .boxclass {
+    width: 30%;
+    height: 100%;
+    margin: 0 30px 30px 30px;
+  }
+  .main-container .box3 .text {
+    padding-bottom: 20px;
+  }
+  .main-container img {
+    height: 180px;
+  }
+}
+
+@media (max-width: 800px) {
+  .header .logo {
+    width: 70%;
+  }
+  .main-container .boxclass {
+    width: 60%;
+    height: 100%;
+  }
+  .main-container .img {
+    height: 80%;
+  }
+  .teachers-class img {
+    margin: 0 20px 60px 20px;
+  }
+  .teachers-class dd {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .teachers-box2 {
+    margin-top: 60px;
+  }
+}
+/*# sourceMappingURL=stylesheet.css.map */
